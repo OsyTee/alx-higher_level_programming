@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 for d in range(1, 100):
     digit_1 = d/10
     digit_2 = d%10
