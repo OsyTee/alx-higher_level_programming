@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-for d in range(1, 100):
-    digit_1 = d/10
-    digit_2 = d%10
-    if d < 10 and digit_1 < digit_2:
-        print("{}{}".format(0, d), end=",")
-    elif digit_1 < digit_2:
-        if d == 89:
+for digit1 in range(0, 9):
+    for digit2 in range(digit1 + 1, 10):
+        if digit1 == 8:
+            print("{:d}{:d}".format(digit1, digit2))
             break
-            print(d, end=",")
-
-
+        print("{:d}{:d}".format(digit1, digit2), end=", ")
