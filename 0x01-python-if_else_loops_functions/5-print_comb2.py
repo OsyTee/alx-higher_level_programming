@@ -6,4 +6,4 @@ for n in range(0, 100):
     else:
         if n == 99:
             comma = "\n"
-        print("{}".format(n), end=comma) # or print(n, end=comma)
+        print("{}".format(n), end=comma)
