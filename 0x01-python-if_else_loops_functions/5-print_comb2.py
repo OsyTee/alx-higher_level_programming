@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-comma = ","
+comma = ", "
 for n in range(0, 100):
     if n < 10:
         print("{}{}".format(0, n), end=comma)
